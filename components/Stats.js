@@ -1,9 +1,11 @@
+import styled from 'styled-components';
 import useStats from '../utils/useStats';
 
 export default function Stats({ url }) {
-  const stats = useStats(url);
+  const { stats, loading, error } = useStats(url);
 
-  if (!stats) return <p>Loading...</p>;
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error...</p>;
   return (
     <div>
       <div className="statBlock">
