@@ -12,6 +12,7 @@ export default function IndexPage() {
   return (
     <div>
       <GlobalStyle />
+      <h2>Total global Covid cases:</h2>
       <Stats url="https://covid19.mathdro.id/api" />
       <Countries />
     </div>
