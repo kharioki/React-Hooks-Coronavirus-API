@@ -4,7 +4,7 @@
   "description": "a coronavirus tracker app with react hooks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/kharioki/React-Hooks-Coronavirus-API/issues"
   },
-  "homepage": "https://github.com/kharioki/React-Hooks-Coronavirus-API#readme"
+  "homepage": "https://github.com/kharioki/React-Hooks-Coronavirus-API#readme",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  }
 }
